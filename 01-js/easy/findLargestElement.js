@@ -6,13 +6,23 @@
 */
 
 function findLargestElement(numbers) {
+  //   if (numbers.length == 0) return undefined;
+  //   let lg = numbers[0];
+  //   for (let i = 0; i < numbers.length; i++) {
+  //     if (lg < numbers[i]) {
+  //       lg = numbers[i];
+  //     }
+  //   }
+  //   return lg;
+
   if (numbers.length == 0) return undefined;
+
   let lg = numbers[0];
+
   for (let i = 0; i < numbers.length; i++) {
-    if (lg < numbers[i]) {
-      lg = numbers[i];
-    }
+    lg = Math.max(lg, numbers[i]);
   }
+
   return lg;
 }
 
