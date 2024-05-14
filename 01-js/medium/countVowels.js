@@ -10,7 +10,7 @@ function countVowels(str) {
   const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
 
   // Check if the clean string is equal to its reverse
-  return cleanStr.split("") === cleanStr.split("").reverse();
+  return cleanStr === cleanStr.split("").reverse().join("");
 }
 
 module.exports = countVowels;
