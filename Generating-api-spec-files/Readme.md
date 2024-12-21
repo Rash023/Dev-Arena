@@ -6,6 +6,8 @@ This project is a backend service for a Todo application, developed to learn and
 
 The backend service provides a set of RESTful APIs for managing todo items, such as creating, retrieving, updating, and deleting tasks. The OpenAPI specification (`swagger.json`) serves as a single source of truth for the API contract.
 
+ref:- https://tsoa-community.github.io/docs/introduction.html
+
 ## Use Cases
 
 1. **Generating Node Clients**
