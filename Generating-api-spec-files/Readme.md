@@ -51,17 +51,7 @@ The backend service provides a set of RESTful APIs for managing todo items, such
    ```
 4. Access Swagger UI at: `http://localhost:3000/docs`
 
-## Future Improvements
 
-- Add authentication and authorization layers.
-- Implement API versioning.
-- Improve error handling and validation.
-
-## License
-
-This project is licensed under the MIT License.
-
----
 
 Developed for learning OpenAPI Specification and backend service documentation.
 
